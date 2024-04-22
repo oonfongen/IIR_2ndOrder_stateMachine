@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../IIR_2ndOrder_stateMachine.srcs/sources_1/new/IIR_2ndOrder_stateMachine.v" \
+"../../../../IIR_2ndOrder_stateMachine.srcs/sim_1/new/tb_IIR_2ndOrder_stateMachine.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

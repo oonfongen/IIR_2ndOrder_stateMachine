@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_IIR_secondOrder_stateMachine_behav/xsimk -simmode gui -wdb tb_IIR_secondOrder_stateMachine_behav.wdb -simrunnum 0 -socket 60821
+Design successfully loaded
+Design Loading Memory Usage: 23872 KB (Peak: 23992 KB)
+Design Loading CPU Usage: 50 ms

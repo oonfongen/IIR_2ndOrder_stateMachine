@@ -1,0 +1,17 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/fongen/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_IIR_secondOrder_stateMachine_behav xil_defaultlib.tb_IIR_secondOrder_stateMachine xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 16 for port 'gain' [/home/fongen/Xilinx/tutorial/IIR_2ndOrder_stateMachine/IIR_2ndOrder_stateMachine.srcs/sim_1/new/tb_IIR_2ndOrder_stateMachine.v:98]
+WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 1 for port 'OnOff' [/home/fongen/Xilinx/tutorial/IIR_2ndOrder_stateMachine/IIR_2ndOrder_stateMachine.srcs/sim_1/new/tb_IIR_2ndOrder_stateMachine.v:99]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.IIR_2ndOrder_stateMachine_defaul...
+Compiling module xil_defaultlib.tb_IIR_secondOrder_stateMachine
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_IIR_secondOrder_stateMachine_behav

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_IIR_secondOrder_stateMachine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_IIR_secondOrder_stateMachine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,617.550000 us"></ZoomStartTime>
+      <ZoomEndTime time="4,477.550001 us"></ZoomEndTime>
+      <Cursor1Time time="3,585.510000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="291"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/s_axis_tlast">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/m_axis_tvalid">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/m_axis_tdata">
+      <obj_property name="ElementShortName">m_axis_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/m_axis_tready">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/data_monitor">
+      <obj_property name="ElementShortName">data_monitor[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_monitor[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/state_reg">
+      <obj_property name="ElementShortName">state_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/cntr">
+      <obj_property name="ElementShortName">cntr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cntr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/s_axis_tready">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_IIR_secondOrder_stateMachine/m_axis_tlast">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/wvfm_period">
+      <obj_property name="ElementShortName">wvfm_period[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wvfm_period[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/init">
+      <obj_property name="ElementShortName">init[4:0]</obj_property>
+      <obj_property name="ObjectShortName">init[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample0">
+      <obj_property name="ElementShortName">sendSample0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample0[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample1">
+      <obj_property name="ElementShortName">sendSample1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample2">
+      <obj_property name="ElementShortName">sendSample2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample3">
+      <obj_property name="ElementShortName">sendSample3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample3[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample4">
+      <obj_property name="ElementShortName">sendSample4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample4[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample5">
+      <obj_property name="ElementShortName">sendSample5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample5[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample6">
+      <obj_property name="ElementShortName">sendSample6[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample6[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_IIR_secondOrder_stateMachine/sendSample7">
+      <obj_property name="ElementShortName">sendSample7[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample7[4:0]</obj_property>
+   </wvobject>
+</wave_config>
